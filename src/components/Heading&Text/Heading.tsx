@@ -8,7 +8,7 @@ const Heading = () => {
       <div className="text-container">
         <h1
           title="refresh the page "
-          className="animate__animated animate__bounce hello"
+          className="animate__animated animate__bounce animate__delay-5s hello"
         >
           Hello,
         </h1>
