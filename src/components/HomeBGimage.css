@@ -1,0 +1,59 @@
+.mekan{
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(/public/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.text-m{
+    color: #fff;
+    margin-left: 3rem;
+    position: absolute;
+    top: 40vh;
+}
+
+@media (min-width: 768px) and (max-width: 1020px) { 
+    .text-m{
+        position: absolute;
+        top: 47vh;
+        margin-left: 4rem;
+
+    }
+    .mekan{
+        font-size: 5rem;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+    }
+ }
+
+ @media (min-width: 1024px) and (max-width: 1440px){
+    .text-m{
+        position: absolute;
+        top: 50vh;
+        margin-left: 4rem;
+    }
+    .mekan{
+        font-size: 7rem;
+        font-weight: 800;
+        letter-spacing: 0.3rem;
+    }
+ }
+
+ @media (max-width: 767px) {
+    .text-m{
+        display: none;
+    }
+    .mekan{
+        display: none;
+    }
+ }

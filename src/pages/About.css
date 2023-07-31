@@ -1,0 +1,38 @@
+.d-flex{
+    color: #fff;
+    margin: 10rem auto;
+}
+
+.text{
+    width: 90%;
+}
+
+.text h1{
+    color: #FFC72C;
+    font-size: 55px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+
+.text h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.text p{
+    color: #c0c4d6;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width:768px){
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+}
