@@ -1,5 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import "./About.css";
+import profilee from "../../public/profilee.png";
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
         <div className="flex-shrink-0">
           <img
             style={{ objectFit: "cover", height: "18rem", marginLeft: "10px" }}
-            src="public/profilee.png"
+            src={profilee}
             alt="black white image of a young boy"
           />
         </div>
