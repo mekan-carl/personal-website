@@ -27,6 +27,7 @@ const About = () => {
             trends. With a keen eye for detail and a dedication to delivering
             top-notch results, I am eager to contribute my expertise to projects
             and collaborate with a dynamic team of professionals.
+            <a href="https://github.com/mekan-carl">GitHub</a>
           </p>
         </div>
       </div>
