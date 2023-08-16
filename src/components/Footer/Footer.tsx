@@ -1,4 +1,4 @@
-import { BsTwitter, BsInstagram, BsFacebook, BsGithub } from "react-icons/bs";
+import { BsTwitter, BsInstagram, BsFacebook } from "react-icons/bs";
 import "../Footer/Footer.css";
 const Footer = () => {
   return (
@@ -30,14 +30,6 @@ const Footer = () => {
             target="blank"
           >
             <BsFacebook />
-          </a>
-          <a
-            title="GitHub"
-            className="foot-link "
-            href="https://github.com/mekan-carl"
-            target="blank"
-          >
-            <BsGithub />
           </a>
         </div>
       </div>

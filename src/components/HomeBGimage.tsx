@@ -1,5 +1,5 @@
 import "./HomeBGimage.css";
-import home from "../../public/pexels-hasan-albari-1229861.jpg";
+import home from "/pexels-hasan-albari-1229861.jpg";
 
 const HomeBGimage = () => {
   return (

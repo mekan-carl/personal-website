@@ -1,6 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import "./About.css";
-import profilee from "../../public/profilee.png";
+import profilee from "/public/profilee.png";
 
 const About = () => {
   return (
@@ -27,7 +27,9 @@ const About = () => {
             trends. With a keen eye for detail and a dedication to delivering
             top-notch results, I am eager to contribute my expertise to projects
             and collaborate with a dynamic team of professionals.
-            <a href="https://github.com/mekan-carl">GitHub</a>
+            <a href="https://github.com/mekan-carl" target="blank">
+              GitHub
+            </a>
           </p>
         </div>
       </div>
