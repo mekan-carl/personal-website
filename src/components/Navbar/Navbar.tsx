@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { SiFampay } from "react-icons/si";
+import { NavLink } from "react-router-dom";
 
 export default function NavbarBs() {
   return (
@@ -14,8 +15,13 @@ export default function NavbarBs() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link to="/" as={NavLink}>
+              Home
+            </Nav.Link>
+            <Nav.Link to="/about" as={NavLink}>
+              About
+            </Nav.Link>
+
             <NavDropdown title="Contact" id="nav-dropdown">
               <NavDropdown.Item href="https://www.instagram.com/mekancarl/">
                 Instagram
