@@ -11,7 +11,7 @@ const Home = () => {
       <h3
         className="text-light text-center "
         style={{
-          fontWeight: "lighter",
+          fontWeight: "light",
           letterSpacing: "1.3px",
           lineHeight: "1.5em",
         }}
