@@ -11,7 +11,7 @@ const Video = () => {
             <iframe
               className="my-video"
               title="self-introduction"
-              src="https://www.youtube.com/embed/-94l5zH2DKo"
+              src="https://www.youtube.com/embed/J0gIVmLteVs"
               autoFocus={false}
               allowFullScreen
             />
