@@ -8,7 +8,7 @@ const Home = () => {
       <HomeBGimage />
       <Heading />
       <Video />
-      <h3
+      <h4
         className="text-light text-center "
         style={{
           fontWeight: "normal",
@@ -24,7 +24,7 @@ const Home = () => {
         >
           here
         </a>
-      </h3>
+      </h4>
       <Footer />
     </>
   );
