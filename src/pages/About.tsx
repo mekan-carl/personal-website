@@ -1,6 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import "./About.css";
-import profilee from "/public/profilee.png";
+import profilee from "../assets/profilee.png";
 
 const About = () => {
   return (

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kaushan+Script&family=Montserrat:wght@200;400&family=Noto+Sans+JP:wght@300;400;500;600&family=Roboto:ital,wght@1,100&display=swap');
+
+.navbar{
+  background-color: rgb(0,0,0,0.3) ;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.nav-link{
+  margin-right: 25px;
+}
+
+.nav-link:hover{
+  opacity: 75%;
+}
+
+.dropdown{
+  margin-right: 70px;
+}
+.dropdown-item{
+  padding: 10px 20px !important;
+}
+
+.hamburger{
+  width: 26px;
+  margin: 20px;
+}
+
+@media screen and (min-width:992px) {
+ 
+  .mobile-screen{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+
+  .laptop-screen{
+    display: none;
+  }
+  .navbar-brand{
+    display: block;
+  }
+}
+
+.mobile-screen{
+  background-color:rgb(0,0,0,0.3) ;
+}
+
+.offcan{
+  background-color:rgb(0,0,0,0.3) ;
+  border: 0;
+  outline: none;
+}
+
+.Nav{
+  display: flex ;
+  flex-direction: column;
+  justify-content:center;
+  align-items:start;
+  padding-top: 30px;
+}
+
+.navlink2{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+}
+.toggleButton{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
