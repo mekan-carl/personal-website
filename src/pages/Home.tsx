@@ -2,9 +2,16 @@ import Heading from "../components/Heading&Text/Heading";
 import Video from "../components/Video/Video";
 import Footer from "../components/Footer/Footer";
 import HomeBGimage from "../components/HomeBGimage";
+import backgroundImage from "../assets/backgroundImage.jpg";
+
 const Home = () => {
   return (
     <>
+      <img
+        className="img-fluid"
+        src={backgroundImage}
+        style={{ backgroundRepeat: "no-repeat" }}
+      />
       <HomeBGimage />
       <Heading />
       <Video />
