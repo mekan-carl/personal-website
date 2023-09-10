@@ -1,14 +1,6 @@
 import { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import {
-  Container,
-  Dropdown,
-  Image,
-  Nav,
-  NavDropdown,
-  NavItem,
-  Navbar,
-} from "react-bootstrap";
+import { Image, Nav } from "react-bootstrap";
 import logo from "../../assets/menu-btn.png";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
