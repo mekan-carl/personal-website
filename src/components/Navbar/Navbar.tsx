@@ -127,6 +127,7 @@ function Example() {
           <Offcanvas.Body>
             <Nav className="Nav ">
               <Nav.Link
+                onClick={handleClose}
                 as={NavLink}
                 to="/"
                 className="link-light navlink2 fs-4"
@@ -135,6 +136,7 @@ function Example() {
                 <span className="ms-4 "> Home</span>
               </Nav.Link>
               <Nav.Link
+                onClick={handleClose}
                 as={NavLink}
                 to="/about"
                 className="link-light navlink2 fs-4 mt-2"
@@ -146,6 +148,7 @@ function Example() {
                 <span>Contact</span>
               </Nav.Link>
               <Nav.Link
+                onClick={handleClose}
                 target="blank"
                 href="https://www.instagram.com/mekancarl/"
                 className="link-light navlink2 fs-5 "
@@ -154,6 +157,7 @@ function Example() {
                 <span className="ms-4 "> Instagram</span>
               </Nav.Link>
               <Nav.Link
+                onClick={handleClose}
                 target="blank"
                 href="https://www.facebook.com/mekan.carl"
                 className="link-light navlink2 fs-5 "
@@ -162,6 +166,7 @@ function Example() {
                 <span className="ms-4 "> Facebook</span>
               </Nav.Link>
               <Nav.Link
+                onClick={handleClose}
                 target="blank"
                 href="https://twitter.com/mekan86631199"
                 className="link-light navlink2 fs-5 "
@@ -170,6 +175,7 @@ function Example() {
                 <span className="ms-4 "> Twitter</span>
               </Nav.Link>
               <Nav.Link
+                onClick={handleClose}
                 target="blank"
                 href="https://github.com/mekan-carl"
                 className="link-light navlink2 fs-5 "
@@ -178,6 +184,7 @@ function Example() {
                 <span className="ms-4 "> Github</span>
               </Nav.Link>
               <Nav.Link
+                onClick={handleClose}
                 target="blank"
                 href="mailto:smekan2320@gmail.com"
                 className="link-light navlink2 fs-5 "

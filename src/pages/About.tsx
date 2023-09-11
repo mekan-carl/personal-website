@@ -16,7 +16,7 @@ const About = () => {
         <div className="text flex-grow-1 ms-3">
           <h1 className="text-center">About me</h1>
           <h4 className="text-center">Front-End Web-Developer</h4>
-          <p className="text-center">
+          <p className="text-center p-2">
             I am a 21-year-old front-end web developer, born in Turkmenistan,
             and currently living in Istanbul, Turkey. My education includes
             attending No:42 High School in Ashgabat. I am a passionate and
