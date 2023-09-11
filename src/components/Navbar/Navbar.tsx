@@ -192,6 +192,12 @@ function Example() {
                 <BiMailSend />
                 <span className="ms-4 ">Send email</span>
               </Nav.Link>
+              <p className="mt-5 ms-2">
+                If send e-mail don't work copy this{" "}
+                <span className="text-decoration-underline">
+                  smekan2320@gmail.com
+                </span>
+              </p>
             </Nav>
           </Offcanvas.Body>
         </Offcanvas>
