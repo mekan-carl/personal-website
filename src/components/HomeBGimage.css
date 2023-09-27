@@ -28,3 +28,17 @@
         transform: translateY(-180%);
     }
 }
+@media screen and (max-width:525px){
+    .mekan{
+        font-size: 9vw;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        background: url(../assets/back.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 35s linear infinite;
+        background-size:900px;
+    }
+}
